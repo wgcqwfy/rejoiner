@@ -1,3 +1,12 @@
+# rejoiner能够从gRPC微服务和其他Protobuf源生成统一的GraphQL schema，具有以下功能：
+  - 从微服务创建统一的GraphQL模式
+  - 可灵活定义GraphQL模式并组成共享组件
+  - 从Proto定义生成GraphQL类型
+  - 基于GraphQL查询参数填充请求Proto
+  - 提供一个DSL来修改生成的模式
+  - 通过注释获取数据的方法来加入数据源
+  - 基于GraphQL选择器创建Proto FieldMasks
+  
 # Rejoiner
 
  - Creates a uniform GraphQL schema from microservices
